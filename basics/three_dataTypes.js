@@ -1,4 +1,4 @@
-"use strict"//teat all js code as newer version
+"use strict"//treat all js code as newer version
 let age = 12;
 const id = "1234";
 let Name;
