@@ -9,3 +9,7 @@ console.log(typeof value);
 // '29' => 29(number)
 //'29abc' => NaN
 // true => 1, false => 0
+//prefix and postfix 
+let x = 4;
+let y = ++x;
+console.log(y);
