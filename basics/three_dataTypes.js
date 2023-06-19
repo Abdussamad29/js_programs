@@ -6,3 +6,9 @@ console.table([age,id,Name]);
 console.log(typeof age);
 console.log(typeof id);
 
+// passing the value
+let m = "unknown"
+let j = Number(m)
+console.log(m);
+console.log(typeof j);
+
