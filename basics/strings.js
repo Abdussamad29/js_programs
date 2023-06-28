@@ -26,3 +26,6 @@ console.log(url.replace("20","29"))
 
 console.log(aim.split("-"));
 
+let Game =  new String("super mario")
+console.log(Game.split(" "));
+

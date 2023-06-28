@@ -26,3 +26,7 @@ let m = {
 
 }
 console.log(m.name);
+
+
+let meta = new Date(2023,5,22,11,30)
+console.log(meta);
