@@ -19,3 +19,6 @@ console.log(numbers.slice(1,3));
 
 let num = numbers.splice(1,3)
 console.log(num);
+
+let age = 120
+console.log(age.toFixed(1));
