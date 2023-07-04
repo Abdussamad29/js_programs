@@ -29,3 +29,10 @@ let cap_letter = fullName.slice(0,1).toUpperCase();
 let other_words = fullName.slice(1,fullName.length);
 let result = cap_letter+other_words;
 console.log(result);
+
+
+//program to generate random words 
+
+let words = "abcdefghij"
+random_words = words[Math.floor(Math.random()*words.length)]
+console.log(random_words);
