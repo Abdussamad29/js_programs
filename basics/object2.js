@@ -49,3 +49,10 @@ console.log(Object.entries(other_user));
 
 console.log(other_user.hasOwnProperty('name2'));
 console.log(user.hasOwnProperty('name'));
+
+// making a function out of an object
+
+user.object = function(){
+    console.log(`the age of the user is ${this.age}`);
+}
+console.log(user.object());
