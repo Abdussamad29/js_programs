@@ -26,9 +26,9 @@ console.log(age.toFixed(1));
 // program to convert first letter to uppercase
 let fullName = "anonymous"
 let cap_letter = fullName.slice(0,1).toUpperCase();
-let other_words = fullName.slice(1,fullName.length);
-let result = cap_letter+other_words;
-console.log(result);
+let other_letters = fullName.slice(1);
+let total = cap_letter+other_letters;
+console.log(total);
 
 
 //program to generate random words 
