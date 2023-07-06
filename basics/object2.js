@@ -45,7 +45,7 @@ console.log(Object.keys(other_user));
 console.log(Object.values(other_user));
 console.log(Object.entries(other_user));
 
-// to check the existance og the property in the object
+// to check the existance of the property in the object
 
 console.log(other_user.hasOwnProperty('name2'));
 console.log(user.hasOwnProperty('name'));
@@ -56,3 +56,6 @@ user.object = function(){
     console.log(`the age of the user is ${this.age}`);
 }
 console.log(user.object());
+
+//destructing
+
