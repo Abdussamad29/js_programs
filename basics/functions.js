@@ -52,8 +52,27 @@ function individual(user){
     return user;
 }
 
- let man = individual(user={id:'123@.com',status:'jobless',location:'asia'})
+ let man= individual(user={id:'123@.com',status:'jobless',location:'asia'})
  console.log(man);
 
 
- 
+function box(container){
+    console.log(`${container.item}`);
+}
+box({
+    item:'bat',
+    item2:'ball'
+})
+
+
+ let game ={
+    play:'cricket',
+    players:11
+ }
+
+ game.func = function(){
+    console.log(`there are ${this.players} players in ${this.play}`);
+ }
+ game.func()
+
+
