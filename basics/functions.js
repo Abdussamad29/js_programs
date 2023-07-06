@@ -10,3 +10,15 @@ function twoNumbers(n1,n2) {
     
 }
 twoNumbers(12,4)
+
+
+function name(Name){
+   let person = 'bill'
+    if(Name===person){
+        return(`hi there ${Name}`)
+    }
+    else{
+        return('fails')
+    }
+}
+console.log(name('bill'))
