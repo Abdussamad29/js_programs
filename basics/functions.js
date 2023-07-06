@@ -40,6 +40,20 @@ let object = {
     yr_bought:2020
 }
 function device(laptop){
-    console.log(`the price of the laptop is${laptop.price}`);
+    console.log(`the price of the laptop is ${laptop.price}`);
+  
 }
 device(object)
+
+// objects can also be defined on the fly
+
+
+function individual(user){
+    return user;
+}
+
+ let man = individual(user={id:'123@.com',status:'jobless',location:'asia'})
+ console.log(man);
+
+
+ 
