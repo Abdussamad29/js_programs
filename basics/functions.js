@@ -22,3 +22,12 @@ function name(Name){
     }
 }
 console.log(name('bill'))
+
+//rest operator
+
+//... helps to print the all values and return it in an array
+
+function clothesPrice(...price){  
+    return price
+}
+console.log(clothesPrice(200,400,500))
