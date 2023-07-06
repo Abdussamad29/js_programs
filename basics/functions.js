@@ -31,3 +31,15 @@ function clothesPrice(...price){
     return price
 }
 console.log(clothesPrice(200,400,500))
+
+//making function from object
+
+let object = {
+    company:'dell',
+    price:'45k',
+    yr_bought:2020
+}
+function device(laptop){
+    console.log(`the price of the laptop is${laptop.price}`);
+}
+device(object)
