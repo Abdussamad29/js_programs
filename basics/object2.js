@@ -57,5 +57,15 @@ user.object = function(){
 }
 console.log(user.object());
 
-//destructing
 
+
+
+let device = {
+    brand:'dell',
+    random_access_memory: '4gb',
+    yrs: 3
+
+}
+  //destructuring
+const {random_access_memory:ram} = device
+console.log(ram);
