@@ -28,4 +28,12 @@ console.log(Object.keys("arrow"));
 console.log(Object.values("arrow"));
 console.log(Object.entries("arrow"));
 
+//rest parameter  (includes every value)
+
+function price(...cart){
+    return cart
+
+}
+console.log(price(3000,4000,5000));
+
 
