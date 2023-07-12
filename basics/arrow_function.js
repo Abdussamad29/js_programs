@@ -5,8 +5,8 @@ name()
 
 // implicit return
 
-const model = (dell) =>('dell vostro 3590')
-console.log(model());
+const dell = (model) =>('dell vostro 3590')
+console.log(dell());
 
 const game = (cricket) =>(cricket)
 console.log(game('cricket'));
