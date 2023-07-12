@@ -27,3 +27,5 @@ main()
 console.log(Object.keys("arrow"));
 console.log(Object.values("arrow"));
 console.log(Object.entries("arrow"));
+
+
