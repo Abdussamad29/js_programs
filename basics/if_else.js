@@ -19,3 +19,12 @@ if(name=='king' && age==34){
 if(2 != 3){
     console.log(true);
 }
+
+// or statement || -checks either of the conditions
+
+const amount = 4000;
+const cost = 'four_thousand'
+
+if(amount==4000 || cost==false){
+    console.log('code executed');
+}
