@@ -82,10 +82,20 @@ let m = {language:'javascript'}
 console.log(Object.values(m));
 
 
-//nullish coaelsing 
+//nullish coaelsing denoted by(??)
 //finds and  logs the safest value 
 const value = undefined ?? 13
 console.log(value);
 
 let attribute = 56 ?? null
 console.log(attribute);
+
+//ternary  operator same like if else   ?
+
+let year = 14
+year >= 12 ? console.log('true') : console.log(`more than ${year}`);
+
+let item = 'can'
+item =='pan' ?console.log('code executed') : console.log('failed');
+
+
