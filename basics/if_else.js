@@ -28,3 +28,41 @@ const cost = 'four_thousand'
 if(amount==4000 || cost==false){
     console.log('code executed');
 }
+
+// switch case 
+
+let month = 6
+switch (month) {
+    case 1:
+        console.log('jan');
+        
+        break;
+    case 2:
+        console.log('feb');
+        
+        break;
+    case 3:
+        console.log('mar');
+        
+        break;
+    case 4:
+        console.log('apr');
+        
+        break;
+    case 5:
+        console.log('may');
+        
+        break;
+    case 6:
+        console.log('jun');
+        
+        break;
+    case 7:
+        console.log('jul');
+        
+        break;
+
+    default:
+        console.log('no match found');
+        break;
+}
