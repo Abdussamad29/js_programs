@@ -80,3 +80,12 @@ if(bye.length==0){
 
 let m = {language:'javascript'}
 console.log(Object.values(m));
+
+
+//nullish coaelsing 
+//finds and  logs the safest value 
+const value = undefined ?? 13
+console.log(value);
+
+let attribute = 56 ?? null
+console.log(attribute);
