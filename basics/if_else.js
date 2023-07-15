@@ -66,3 +66,17 @@ switch (month) {
         console.log('no match found');
         break;
 }
+ 
+// truthy values {},[],function(){},string with value of 0 and space between --- "0" " "
+let hi = {}  
+if(Object.keys(hi).length==0){
+    console.log('the object is empty');
+}
+
+let bye = []
+if(bye.length==0){
+    console.log('the array is empty');
+}
+
+let m = {language:'javascript'}
+console.log(Object.values(m));
